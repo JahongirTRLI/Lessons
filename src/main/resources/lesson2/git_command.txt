@@ -1,0 +1,3 @@
+git config --list                                           <-- список настроек
+git config --global user.name "JahongirTRLI"                <-- установить имя
+git config --global user.email jahongir.trli@gmail.com      <-- установить почту
