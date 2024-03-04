@@ -1,3 +1,11 @@
 git config --list                                           <-- список настроек
-git config --global user.name "JahongirTRLI"                <-- установить имя
-git config --global user.email jahongir.trli@gmail.com      <-- установить почту
+git config --global user.name "user_name"                   <-- установить имя
+git config --global user.email e-mail@gmail.com             <-- установить почту
+
+git remote add origin <repository_name>                     <-- добавляем удаленный репозиторий (по протоколу SSH) под именем origin
+                                                                (желательно использовать его, но можно любое другое,
+                                                                 главное – не master – оно используется в момент релиза версии).
+git remote -v                                               <-- удаленный репозиторий
+git branch -M main                                          <-- используем ветку main
+
+git push -u origin main                                     <-- занесение своих ихменений
