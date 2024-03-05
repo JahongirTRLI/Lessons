@@ -21,6 +21,7 @@ public class BArray2DAgain {
             for (int j = 0; j < i + 1; j++) {
                 System.out.print(twoD[i][j] + " ");
             }
+
             System.out.println();
         }
 

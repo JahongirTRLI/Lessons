@@ -27,5 +27,9 @@ public class ASimpleMethod {
         return s + s;
     }
 
+    private Float squareFloat(float a) {
+        return new Float(a * a);
+    }
+
 
 }
