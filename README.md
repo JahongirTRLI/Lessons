@@ -30,5 +30,5 @@
 ![java_keywords](src/main/resources/lesson3/2_keywords.png)
 3. Укороченные логические операции. Оператор присваивания
 4. Тернарный оператор
-5. Методы в java:
+5. Методы в java
   
